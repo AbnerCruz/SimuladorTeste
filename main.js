@@ -1,6 +1,5 @@
 
-import * as webllm from "@mlc-ai/web-llm";
-import "./style.css";
+import * as webllm from "https://esm.run/@mlc-ai/web-llm";
 
 const MODEL = "Llama-3.2-1B-Instruct-q4f16_1-MLC";
 const ACTIONS = ["buscar_comida","buscar_agua","buscar_abrigo","descansar","fugir","explorar","interagir"];
